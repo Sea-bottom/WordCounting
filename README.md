@@ -12,7 +12,7 @@ NodeJS Application
 * This map is then exported as a .csv file to be used in Excel Spreadsheet - Line 63
 
 
-Steps:
+Steps to program for the function at line 105:
 1. Check if current key is a noun (skies: 5,)
 2. If yes, push "Noun" to the map value (skies: 5, Noun,)
 3. Return the word to its base form - lemmatize.noun(key) (sky: 5, Noun,)
