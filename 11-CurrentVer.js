@@ -27,7 +27,6 @@ const csvWriter1 = createCsvWriter({
     {id: 'noun', title: 'Noun'},
     {id: 'verb', title: 'Verb'},
     {id: 'adjec', title: 'Adjec'},
-    {id: 'adverb', title: 'Adverb'},
   ]});
 
 const csvWriter2 = createCsvWriter({  
