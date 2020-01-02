@@ -1,26 +1,25 @@
 {
   "name": "wordcounting",
-  "version": "11.0.0",
-  "description": "Counting words and sorting by class",
+  "version": "1.0.0",
+  "description": "Tallying up words, breaking them into base form and assign a word class to them",
   "main": "11-CurrentVer.js",
-  "dependencies": {
-    "csv-writer": "^1.5.0",
-    "contractions": "^0.0.7",
-    "wink-lemmatizer": "^3.0.1",
-    "wordpos": "^2.0.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "n/a"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sea-bottom/WordCounting.git"
   },
-  "author": "Carsten S",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sea-bottom/WordCounting/issues"
   },
-  "homepage": "https://github.com/Sea-bottom/WordCounting#readme"
+  "homepage": "https://github.com/Sea-bottom/WordCounting#readme",
+  "dependencies": {
+    "contractions": "0.0.7",
+    "csv-writer": "^1.5.0",
+    "wink-lemmatizer": "^3.0.1",
+    "wordpos": "^2.0.0"
+  }
 }
