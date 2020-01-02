@@ -1,0 +1,26 @@
+{
+  "name": "wordcounting",
+  "version": "11.0.0",
+  "description": "Counting words and sorting by class",
+  "main": "11-CurrentVer.js",
+  "dependencies": {
+    "csv-writer": "^1.5.0",
+    "contractions": "^0.0.7",
+    "wink-lemmatizer": "^3.0.1",
+    "wordpos": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "n/a"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sea-bottom/WordCounting.git"
+  },
+  "author": "Carsten S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sea-bottom/WordCounting/issues"
+  },
+  "homepage": "https://github.com/Sea-bottom/WordCounting#readme"
+}
